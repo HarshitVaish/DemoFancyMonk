@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.demofancymonk.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/parentLinearLayout">
+        <Button
+            android:id="@+id/sign_up"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorWhite"
+            android:text="@string/signup"/>
+
+        <Button
+            android:id="@+id/sign_in"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorButton"
+            android:background="@color/colorcontrast"
+            android:text="@string/signin"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/parentLinearLayout"
+        android:gravity="center"
+
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="130dp"
+            android:layout_marginBottom="20dp" />
+        <TextView
+            android:id="@+id/tagline1"
+            android:textSize="18sp"
+            android:layout_below="@id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tagline"
+
+            android:textAlignment="center"/>
+        <TextView
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_below="@id/tagline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tagline1"
+            android:layout_alignEnd="@+id/tagline1"
+            android:layout_alignStart="@+id/tagline1" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DemoFancyMonk</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="skip">Skip</string>
+    <string name="tagline">Table Reservation.Waiter-less Ordering.</string>
+    <string name="tagline1">Food Pre-Booking</string>
+    <string name="Password">Password</string>
+    <string name="Username">UserName</string>
+    <string name="Phoneno">Phone No</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email Address</string>
+    <string name="clear">clear</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="demo">derp dunson</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="comment">Comment your experience here</string>
+
+
+</resources>
